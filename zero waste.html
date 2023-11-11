@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Waste</title><!---menentukan judul untuk halaman HTML (yang ditampilkan di bilah judul browser atau di tab halaman)-->
+    <link rel="stylesheet" href="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 1\style.css"><!----menggunakan css eksternal untuk styling-->
+    
+                                                            
+                
+</head>
+<body>
+    <!----Penggunaan Javascript untuk memunculkan tanggal-->
+    <div class="javascript">
+        <p id="date"></p>
+
+    <script>
+    const d = new Date();
+    document.getElementById("date").innerHTML = d;
+    </script>
+        </div>
+    <!-------------------------------------------------------->
+
+    
+    <header>
+        <div class="logo"><a href=''>ZERO WASTE</a></div>
+                    
+        <!----NAVIGASI-->
+        <nav>
+            <div class="navigasi">                
+                <div class="menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#content">Content</a></li>
+                        <li><a href="#about">About</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="navigasi">
+        <!---------------------------- HOME--------------------------- -->
+        
+        <section id="home">
+            <img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 1\gambar bumi.png"/>
+            <div class="kolom">
+                <h2>ZERO WASTE : Solusi Digital untuk Permasalahan Sampah</h2>
+                <br>
+
+                
+                <article >
+                <p>ZERO WASTE adalah sebuah website yang didedikasikan untuk mengatasi permasalahan serius yang kita hadapi di seluruh dunia, yaitu masalah sampah.
+                     Kami mengerti bahwa pengelolaan sampah yang efisien sangat penting untuk menjaga lingkungan dan kesejahteraan kita.
+                     Bersama ZERO WASTE, kami berkomitmen untuk memberikan informasi, sumber daya, solusi, dan dukungan yang Anda butuhkan untuk
+                      berkontribusi pada penanganan permasalahan sampah ini.</p>                    
+                                        
+                       <br>
+                      <p>Website kami menyediakan artikel dan informasi terbaru tentang isu-isu sampah,
+                         termasuk pemahaman tentang dampak sampah terhadap lingkungan dan upaya-upaya untuk mengatasi masalah ini.</p>
+                         <br>
+                         <p>Kami menawarkan panduan praktis tentang cara memilah sampah, mengurangi limbah, dan mendaur ulang dengan benar. 
+                            Anda juga akan menemukan tips untuk meminimalkan sampah di rumah dan di tempat kerja.</p>
+                            <br>
+                            <p>Gabunglah dalam diskusi di komunitas kami, tempat para pemikir lingkungan berbagi ide, pengalaman, dan solusi terkait sampah. 
+                                Anda dapat belajar dari orang lain dan berkontribusi pada diskusi ini.</p>
+                                <br>
+                                <h2>Misi Kami</h2>
+                                <p>Misi utama kami adalah untuk meningkatkan kesadaran tentang masalah sampah dan 
+                                    mengedukasi orang tentang cara-cara mengatasi permasalahan ini. Kami percaya bahwa dengan
+                                     pengetahuan dan tindakan yang tepat, kita dapat membuat perubahan positif dalam dunia ini.
+                                      Kami juga mendukung upaya-upaya untuk mengurangi sampah, mendaur ulang, dan
+                                       meminimalkan dampak negatif sampah pada lingkungan.</p>                                   
+                                        </article>
+                                       
+                
+            </div>
+        </section>
+       
+
+        <!------------------------------ untuk content -->
+        <section id="content">
+            <div class="kolom">
+
+                <!-----------------FORM--------------------->
+                <form action="">
+                  
+                    <div class="inputbox">
+                        <label for="theme">Pilih tema yang kamu inginkan :</label>
+                        <br>
+                        <select name="theme" id="theme">
+                          <option value="environment">Environment</option>
+                          <option value="-">-</option>
+                         
+                        </select>
+                        <br>
+                        <br>
+                        <label for="yang ingin diketahui">Apa yang ingin kamu ketahui :</label>
+                        <br>
+                        <select name="data" id="data">
+                          <option value="Data Timbunan Sampah di Indonesia">Data Timbunan Sampah di Indonesia</option>
+                          <option value="Data Timbunan Sampah di Dunia">Data Timbunan Sampah di Dunia</option>
+                          <option value="Circular Economy">Circular Economy</option>
+                          <option value="Bank Sampah">Bank Sampah</option>
+                          <option value="Solusi Pemasalahan Sampah">Solusi Permasalahan Sampah</option>
+                          <option value="Pemanfaatan Sampah ">Pemanfaatan Sampah</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="jenis sampah">Jenis-Jenis Sampah:</label>
+                        <br>
+                        <select name="jenis sampah" id="jenis sampah">
+                            <option value="sampah plastik">Sampah Plastik</option>
+                            <option value="limbah medis">Limbah Medis</option>
+                            <option value="limbah rumah tangga">Limbah Rumah Tangga</option>
+                            <option value="limbah industri">Limbah Industri</option>
+                            <option value="sampah kertas">Sampah Kertas</option>
+                            <option value="sampah logam">Sampah Logam</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="komunitas">Komunitas Peduli Lingkungan:</label>
+                        <br>
+                             <select name="komunitas" id="komunitas">
+                            <option value="waste4change">Waste4Change</option>
+                            <option value="Rekosistem">Rekosistem</option>
+                            <option value="Rebricks">Rebricks</option>
+                            <option value="EwasteRJ">EwasteRJ</option>
+                            <option value="Armada Kemasan">Armada Kemasan</option>
+                            
+                        </select>                     
+                                                
+                    </div>
+                                    
+                    <input type="submit" name="submit">
+
+                </form>
+                <br>
+
+                <!---------------------------------------->
+
+
+                <h2>DATA PENGELOLAAN SAMPAH</h2>
+                <br>
+                <p>Data Sistem Informasi Pengelolaan Sampah Nasional (SIPSN) Kementerian Lingkungan Hidup dan Kehutanan (KLHK) tahun 2022 
+                    hasil input dari 202 kab/kota se Indonesia menyebut jumlah timbunan sampah nasional mencapai angka 21.1 juta ton.
+                     Dari total produksi sampah nasional tersebut, 65.71% (13.9 juta ton) dapat terkelola, sedangkan sisanya 34,29% (7,2 juta ton)
+                      belum terkelola dengan baik.</p>
+                      <br>
+                      
+                      <p><a href="https://sipsn.menlhk.go.id/sipsn/" >https://sipsn.menlhk.go.id/sipsn/</a></p>
+                      <br>
+
+                      <!-------PENGGUNAAN JAVASCRIPT UNTUK MEMUNCULKAN TEXT YANG DISEMBUNYIKAN----->
+                    <aside id="myAside">
+                   
+                    <p>Undang-Undang Nomor 18 Tahun 2008 tentang Pengelolaan Sampah, diperlukan pengurangan dan penanganan sampah khususnya untuk limbah dari rumah tangga. Pengurangan sampah yang dimaksud adalah pembatasan timbulan, pendauran ulang, dan pemanfaatan kembali sampah. Untuk penanganan sampah terdiri dari kegiatan pemilahan dan pemisahan sampah sesuai jenis, jumlah dan sifat, pengumpulan dan pemindahan sampah ke tempat penampungan atau pengolahan sampah, pengangkutan sampah, pengolahan sampah,
+                        serta pemrosesan akhir sampah dalam bentuk pengembalian sampah ke media lingkungan secara aman.</p>
+                        <br>
+
+                        <!-------------SYNTAX JAVASCRIPT UNTUK MEMUNCULKAN TEXT YANG DISEMBUNYIKAN----->
+
+                        <button onclick="myFunction()">Click Me To Show More Article</button>
+
+                    <script>
+                    function myFunction() {
+                    var x = document.createElement("ASIDE");
+                    x.setAttribute("id", "myAside");
+                    document.body.appendChild(x);
+
+                    var heading = document.createElement("H4");
+                    var txt1 = document.createTextNode("Jenis Timbunan Sampah");
+                    heading.appendChild(txt1);
+                    document.getElementById("myAside").appendChild(heading);
+
+                    var para = document.createElement("p");
+                    var txt2 = document.createTextNode("Berdasarkan jenisnya, mayoritas timbulan sampah nasional pada 2022 berupa sampah sisa makanan dengan proporsi 41,55%. Kemudian sampah plastik berada di urutan kedua dengan proporsi 18,55%.Sebanyak 13,27% sampah di Indonesia pada 2022 berupa kayu/ranting, 11,04% sampah kertas/karton, dan sampah logam 2,86%.Ada pula 2,54% sampah kain, sampah kaca 1,96%, sampah karet/kulit 1,68%, dan 6,55% sampah jenis lainnya");
+                    para.appendChild(txt2);
+                    document.getElementById("myAside").appendChild(para);
+                    }
+                    </script>
+                    </aside >
+                                        
+                
+            </div>
+            <img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 1\gambar dolpin.png"/>
+          
+        </section>
+   
+        <!------------------------TABLE---------------------------------->
+        <h2 style="text-align: center;">12 NEGARA PENGHASIL SAMPAH PLASTIK TERBESAR DI DUNIA</h2>
+    <br>
+    <br>
+    <table style="width: 800px;">
+        <tr>
+            <th>Peringkat Dunia</th>
+            <th>Tahun</th>
+            <th>Negara</th>
+            <th>Timbulan Sampah Tahunan ( Metrik Ton)</th>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2021</td>
+            <td>Tiongkok</td>
+            <td>0,63 juta</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2021</td>
+            <td>Indonesia</td>
+            <td>3,22 juta</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>2021</td>
+            <td>Filiphina</td>
+            <td>1,88 juta</td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>2021</td>
+            <td>Vietnam</td>
+            <td>1,83 juta</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>2021</td>
+            <td>Sri Lanka</td>
+            <td>1,59 juta</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>2021</td>
+            <td>Thailand</td>
+            <td>1,03 juta</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>2021</td>
+            <td>Mesir</td>
+            <td>0,97 juta</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>2021</td>
+            <td>Malaysia</td>
+            <td>0,94 juta</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>2021</td>
+            <td>Nigeria</td>
+            <td>0,85 juta</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>2021</td>
+            <td>Bangladesh</td>
+            <td>0,79 juta</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>2021</td>
+            <td>Afrika Selatan</td>
+            <td>0,63 juta</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>2021</td>
+            <td>India</td>
+            <td>0,60 juta</td>
+        </tr>
+        <caption> Sumber : e-journal.janabadra.ac.id</caption>
+       
+
+    </table>
+    <br>
+    <table style="width: 800px;height: 300px; ">
+        <caption style="caption-side: bottom;"> Sumber : e-journal.janabadra.ac.id</caption>
+        <h2 style="text-align: center;">Perkiraan Prosentase Sampah di Indonesia</h2>
+        <br>
+
+        <tr>
+            <th rowspan="2" style="text-align: center;">KOMPONEN</th>
+            <th rowspan="2" style="text-align: center;">UNIT</th>
+            <th colspan="6">TAHUN</th>
+
+        </tr>
+        <tr>
+            <td style="color: blue ;">1997</td>
+            <td style="color: blue;">1998</td>
+            <td style="color: blue;">1999</td>
+            <td style="color: blue;">2000</td>
+            <td style="color: blue;">2001</td>
+            <td style="color: blue;">2002</td>
+           
+        </tr>
+        <tr>
+            <td>Organik</td>
+            <td>%</td>
+            <td>74,6  </td>
+            <td>75,38 </td>
+            <td>75,18 </td>
+            <td>74,99 </td>
+            <td>74,60 </td>
+            <td>74,22 </td>
+
+        </tr>
+
+        <tr>
+            <td>Kertas</td>
+            <td> %</td>
+            <td>10,18</td>
+            <td>10,50</td>
+            <td>10,71</td>
+            <td>10,93</td>
+            <td>11,15</td>
+            <td>11,37</td>
+        </tr>
+
+        <tr>
+            <td>Kayu </td>
+            <td>%</td>
+            <td>0,98</td>
+            <td>0,39</td>
+            <td>0,20</td>
+            <td>0,02</td>
+            <td>0,02</td>
+            <td>0,02</td>
+        </tr>
+
+        <tr>
+            <td>Tekstil</td>
+            <td>%</td>
+            <td>1,57</td>
+            <td>1,20</td>
+            <td>1,13</td>
+            <td>1,06</td>
+            <td>1,00</td>
+            <td>0,93</td>
+        </tr>
+
+        <tr>
+            <td>Karet</td>
+            <td>%</td>
+            <td>0,55</td>
+            <td>0,41</td>
+            <td>0,39</td>
+            <td>0,37</td>
+            <td>0,35</td>
+            <td>0,33</td>
+        </tr>
+
+        <tr>
+            <td>Plastik</td>
+            <td>%</td>
+            <td>7,86</td>
+            <td>8,11</td>
+            <td>8,30</td>
+            <td>8,50</td>
+            <td>8,69</td>
+            <td>8,88</td>
+        </tr>
+
+        <tr>
+            <td>Logam</td>
+            <td>%</td>
+            <td>2,04</td>
+            <td>1,89</td>
+            <td>1,89</td>
+            <td>1,90</td>
+            <td>1,90</td>
+            <td>1,90</td>
+                
+                
+               
+        </tr>
+
+        <tr>
+            <td>Gelas</td>
+            <td>%</td>
+            <td>1,75</td>
+            <td>1,93</td>
+            <td>1,99</td>
+            <td>2,05</td>
+            <td>2,10</td>
+            <td>2,16</td>
+        </tr>
+
+        <tr>
+            <td>Baterai</td>
+            <td>%</td>
+            <td>0,29</td>
+            <td>0,01</td>
+            <td>0,01</td>
+            <td>0,01</td>
+            <td>0,01</td>
+            <td>0,01</td>
+        </tr>
+
+        <tr>
+            <td>Lain-lain</td>
+            <td>%</td>
+            <td>0,18</td>
+            <td>0,18</td>
+            <td>0,18</td>
+            <td>0,18</td>
+            <td>0,18</td>
+            <td>0,18</td>
+
+
+        </tr>
+
+
+    </table>
+    
+       
+            
+
+<!-------------------------------ABOUT -------------------------------------->    
+
+
+    <!-- ---- CIRCULAR ECONOMY----- -->
+    <section id="circular">
+        <div class="tengah">
+            <div class="kolom">
+                <img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 1\economy circular2.png"/>
+                <img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 1\medicine waste.png"/>
+                <p>Pengelolaan sampah terpadu berbasis masyarakat selain berfungsi menjaga kelestarian lingkungan juga telah terbukti mampu
+                    mensejahtetakan masyarakat. Pengelolaan sampah secara terpadu tersebut diwujudkan dengan pengadaan program bank sampah.
+                    Program pengelolaan sampah tersebut terdapat pada berbagai program diantaranya komposting, daur ulang, kerja bakti, dan bank sampah. Bank
+                    sampah telah terbukti mampu meningkatkan peran masyarakat dalam mengelola sampah, menjaga kelestarian lingkungan, sekaligus
+                    meningkatkan taraf ekonomi melalui hasil pengolahan sampah.
+                     Kesimpulannya, pengelolaan sampah yang tepat untuk dapat diterapkan di Indonesia adalah pengelolaan sampah terpadu berbasis masyarakat.
+                    Pengelolaan sampah tersebut direncanakan, dijalankan, dikelola, dan dievaluasi oleh masyarakat, dengan dukungan dari pemerintah dan pihak terkait.
+                    </p>
+                    <br>
+
+                <p>Ekonomi sirkular adalah sebuah sistem atau model ekonomi yang bertujuan untuk menghasilkan pertumbuhan ekonomi dengan mempertahankan nilai produk,
+                    bahan, dan sumber daya dalam perekonomian selama mungkin, sehingga meminimalkan kerusakan sosial dan 
+                    lingkungan yang disebabkan oleh pendekatan ekonomi linear (Ellen MacArthur, 2015).</p>
+                    <br>
+                    <p> Ekonomi sirkular merupakan model yang berupaya memperpanjang siklus hidup dari suatu produk, bahan baku, dan sumber daya yang ada agar dapat dipakai selama mungkin. Prinsip dari ekonomi sirkular mencakup pengurangan limbah dan polusi, menjaga produk dan material terpakai selama mungkin, dan meregenerasi sistem alam (Ellen Macarthur Foundation). 
+                        Melalui ekonomi sirkular, kita bisa mencapai lebih banyak dengan menggunakan lebih sedikit.</p>
+                        <br>
+                        <p>Salah satu   model   ekonomi   yang   ditawarkan   kepada   dunia   adalah   model ekonomi  sirkular,
+                            dimana  dalam  model  ini  barang  yang  sudah  dikonsumsi  dapat diolah  kembali 
+                             (Reduce,  Reuse,  Recycle,  Replace,  Repair).  Sampah  tersebut  diproduksi ulang sehingga mengurangi dampak limbah buangan yang berbahaya bagi
+                              lingkungan dan  dapat  digunakan  kembali  sebagai  produk  baru  atau  sebagai  bahan  baku  produk lain.</p>
+                              <br>
+                              <p>Salah  satu  implementasi  dari  ekonomi  sirkular  pada  kalangan  rumah  tangga adalah   program   bank  sampah.   Masyarakat   dapat   berperan  
+                                sebagai   produsen   dan kosumen dengan memproses dan mempergunakan sampah rumah tangganya masing-masing. 
+                                 Hasil  pemilahan  tersebut  dapat  dijual kepada  pihak  ke  tiga  atau  digunakan untuk keperluan sehari-hari.</p>
+                                 <br>
+                                 <p>Pengelolaan  limbah  adalah  salah  satu  bentuk  implementasi 
+                                    ekonomi sirkular. Ellen MacArthur Foundation (2013:7), komunitas yang
+                                     mempopulerkan   ekonomi   sirkular   berpendapat   bahwa   inti   dari   
+                                     ekonomi sirkular   adalah;   pertama,   untuk   mendesain   limbah,  
+                                      produk-produk   yang dikonsumsi   dapat   didaur   ulang   dan   dijadikan  
+                                       sumber   produksi   kembali. Kedua,  terpilahnya  limbah  jangka  panjang  dan 
+                                        jangka  pendek.  Ketiga,  energi yang   diperlukan   pada   sistem   ini  
+                                         adalah   energi   hijau,   sekaligus   untuk mengurangi pemakaian sumber energi yang tidak dapat 
+                                         diperbaharui. </p>
+            </div>           
+    </section>
+</div>
+<footer>
+    <script>
+        function printPage() {
+          window.print();
+        }
+        </script>
+    <input type="button" value="Print this page" onclick="printPage()" />
+<div id="contact">
+    <div class="navigasi">
+        <div class="footer">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 1\whatsapp_5968841.png"/> 0821-3696-4012</p>
+                <p><img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 1\gmail_732200.png"/> movidamalani@gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p>Desa Kesamiran Kec.Tarub Kab.Tegal</p>
+                <p>Kode Pos : 52184</p>
+            </div>
+           
+            <div class="footer-section">
+                <h3>Social Media</h3>
+               
+                <p><img src="d:\SEMESTER 3\PEMOGRAMAN WEB 1\TUGAS\UTS SMT 3\TUGAS 1\github_2111425.png"/><a href="https://github.com/movidatantra/movidatantra-TugasPemogramanWeb1.git" >Github</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+</section> 
+</body>
+</html>
